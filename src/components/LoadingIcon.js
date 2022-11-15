@@ -1,6 +1,6 @@
 const LoadingIcon = () => {
   return (
-    <svg height="40px" width="40px">
+    <svg className="loadingIcon" height="40px" width="40px">
       <path
         opacity="0.2"
         fill="#000"

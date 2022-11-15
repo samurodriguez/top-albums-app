@@ -36,7 +36,7 @@ const AlbumWithSongs = () => {
       {songs.length > 0 ? (
         <AlbumSongsList songs={songs} changeSong={changeSong} />
       ) : (
-        <p>No hay canciones disponibles</p>
+        <p className="noSongs">No hay canciones disponibles 🙁</p>
       )}
     </>
   );
